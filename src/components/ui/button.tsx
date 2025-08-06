@@ -22,6 +22,7 @@ const buttonVariants = cva(
         "atm-primary": "bg-gradient-primary text-primary-foreground border-2 border-primary shadow-glow hover:shadow-xl hover:scale-105 active:animate-button-press font-bold",
         "atm-success": "bg-success text-success-foreground border-2 border-success hover:bg-success/90 shadow-button active:animate-button-press font-bold",
         "atm-warning": "bg-warning text-warning-foreground border-2 border-warning hover:bg-warning/90 shadow-button active:animate-button-press font-bold",
+        "cart-orange": "bg-cart-orange text-cart-orange-foreground border-2 border-cart-orange hover:bg-cart-orange/90 shadow-button active:animate-button-press font-bold",
       },
       size: {
         default: "h-10 px-4 py-2 text-sm",

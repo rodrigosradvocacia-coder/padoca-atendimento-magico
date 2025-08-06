@@ -53,6 +53,10 @@ export default {
 					DEFAULT: 'hsl(var(--warning))',
 					foreground: 'hsl(var(--warning-foreground))'
 				},
+				'cart-orange': {
+					DEFAULT: 'hsl(var(--cart-orange))',
+					foreground: 'hsl(var(--cart-orange-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'

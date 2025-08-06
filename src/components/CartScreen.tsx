@@ -89,7 +89,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
 
         <div className="space-y-4">
           <Button 
-            variant="atm-primary" 
+            variant="cart-orange" 
             size="atm-xl"
             onClick={() => { playBeep(); onContinueShopping(); }}
           >
@@ -97,7 +97,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
           </Button>
           
           <Button 
-            variant="atm" 
+            variant="cart-orange" 
             size="atm"
             onClick={() => { playBeep(); onBack(); }}
           >
@@ -114,7 +114,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
       {/* Header */}
       <div className="flex justify-between items-center mb-8">
         <Button 
-          variant="atm" 
+          variant="cart-orange" 
           size="default"
           onClick={() => { playBeep(); onBack(); }}
           className="flex items-center gap-2"
@@ -128,7 +128,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
         </h1>
         
         <Button 
-          variant="atm" 
+          variant="cart-orange" 
           size="default"
           onClick={() => { playBeep(); onContinueShopping(); }}
         >
@@ -158,7 +158,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
               <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2">
                   <Button
-                    variant="atm"
+                    variant="cart-orange"
                     size="icon"
                     onClick={() => handleQuantityChange(item.id, item.quantity - 1)}
                     className="h-8 w-8"
@@ -171,7 +171,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
                   </span>
                   
                   <Button
-                    variant="atm"
+                    variant="cart-orange"
                     size="icon"
                     onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
                     className="h-8 w-8"
@@ -214,7 +214,7 @@ export const CartScreen: React.FC<CartScreenProps> = ({
 
         <div className="flex gap-4 justify-center">
           <Button 
-            variant="atm-success" 
+            variant="cart-orange" 
             size="atm-xl"
             onClick={() => { playConfirm(); onConfirmOrder(); }}
             className="flex-1 max-w-md"

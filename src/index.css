@@ -37,6 +37,9 @@ All colors MUST be HSL.
     --warning: 35 100% 50%;
     --warning-foreground: 220 15% 8%;
 
+    --cart-orange: 36 100% 50%;
+    --cart-orange-foreground: 0 0% 100%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 

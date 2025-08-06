@@ -19,8 +19,8 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStartOrder }) =>
     <ATMScreen className="flex flex-col items-center justify-center text-center">
       {/* Logo area */}
       <div className="mb-12 animate-fade-in">
-        <div className="w-32 h-32 mx-auto mb-6 bg-gradient-primary rounded-full flex items-center justify-center shadow-glow animate-pulse-glow">
-          <span className="text-4xl font-bold text-primary-foreground">PK</span>
+        <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center shadow-glow animate-pulse-glow">
+          <img src="/src/assets/logo.svg" alt="Padoca da Kamila" className="w-full h-full" />
         </div>
         <h1 className="text-5xl font-bold text-atm-text-bright mb-4">
           Padoca da Kamila
